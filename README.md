@@ -8,6 +8,7 @@ Simple work day scheduler using javascript for functionality and bootstrap for s
 - Javascript
 - jQuery
 - Bootstrap
+- Moment.js for dates and times
 
 ## Website 
 https://erinknapp.github.io/work-scheduler/
