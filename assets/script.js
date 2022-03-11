@@ -1,4 +1,7 @@
-$('#currentDay').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+
+// Using moment.js to help format and display current time
+$('#currentDay').text(moment().format('MMMM Do YYYY, h:mm a'));
+
 
 let currentTime = moment().hour();
 $('.description').each(function(){
@@ -12,5 +15,4 @@ $('.description').each(function(){
         $(this).addClass('present');
     }
 });
-console.log(currentTime);
     
